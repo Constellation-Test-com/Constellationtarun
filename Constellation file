@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <body id="body">
+        <style>
+            #body{
+                background-color: black ;
+            }
+            #head{
+                background-color:#202020;
+                margin: 30px;
+                padding:20px ;
+                border: 20px solid #101010;
+                color: white ;
+                font-size:50px; 
+                font-weight:bold;
+                text-align :center; 
+            }
+            #herf{
+                color: gray;
+                font-size:20px;
+            }
+            #hr{
+                background-color:white;
+                height:2px ;
+            }
+            #hh{
+            background-color:#101010;
+                border: 20px solid #202020;
+                color: gray;
+                font-size:30px;
+                font-weight: bold;
+                
+            }
+            #p{
+            background-color:#202020;
+                border: 20px solid #101010;
+                color :white ;
+                font-size:20px;
+                
+            }
+            .button{
+            background-color:#101010;
+                border: 20px solid #202020;
+            font-size: 30px;
+                color: gray;
+            }
+            #bu{
+                color: white;
+                background-color: black ;
+            }
+            #h{
+            background-color:#101010;
+                border: 20px solid #202020;
+                color: gray ;
+                font-size: 40px ;
+                font-weight: bold ;
+                text-align: center; 
+            } 
+            #imgv{
+                border: dotted;
+                border-color:gray;
+                height : 500px;
+                width :350px;
+            }
+            #imgh{
+                border : dotted ;
+                border-color : gray ;
+                height : 350px;
+                width : 400px;
+            }
+            #imgdivv{
+                background-color: white;
+                height:500px;
+                width:350px;         
+            }
+            #imgdivh{
+                background-color:white;
+                height:350px;
+                width:400px;
+            }
+            #box{
+                margin: 50px ;
+                border: 20px solid #A1A1A1;
+                padding: 30px ;
+                background-color: #AAAAAA;
+            }
+        </style> class=""
+        <script >
+            function astrikh() {
+                document.getElementById("bua").innerHTML=("and my favourite constellation");
+            }
+            function astrikhb(){
+          document.getElementById("bua").innerHTML=("");
+          }
+        </script>
+        <hr id="hr"/>
+        <div id="head">CONSTELLATION</div>
+  
+              <hr id="hr"/>
+        
+            <a href="#"; id="herf">home</a> 
+            <a href="."; id="herf">about me</a>
+            <a href=";"; id="herf">news</a>
+        
+        <hr id="hr"/>
+        <div id="box">
+        <p id="hh">What are constellation ?</p>
+        <p id="p"> Constellation are group of stars arranged into pattern and recognised by the <b>IAU</b>.<br/> There are 88
+        official  constellation where 12 are zodiac signs and 48 is based on mythology.<br/>Then the rest of the constellation are related to physical objects .</p> </br>
+         <h id="hh">Some famous constellation*</h>
+         <button id="bu"; onclick="astrikh()">for this *</button>   
+               <button id="bu"; onclick="astrikhb()">hide</button>
+         <p id="bua" class="button"></p>
+         <p id="h">Orion</p> <br/>
+        <div id="imgdivv">  <img id="imgv"; src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Orion_IAU.svg/960px-Orion_IAU.svg.png";/> </div>
+        <p id="p">Orion is a very famous, visible and bright constellation.<br/>In mythology,orion is a hunter.It has seven bright stars: </p>
+        <ul id="p">
+            <b>
+            <li>Rigel</li>
+            <li>Saiph</li>
+            <li>Belltrix</li>
+            <li>Betelgeuse</li>
+            <li>Alnitak</li>
+            <li>Alnilam</li>
+            <li>Mintaka</li>
+            </b>
+        </ul>
+        <p id="p">It has many asterium such as <b>orion belt, orion sword,orion<br/> shield, the butterfly, heavenly g, winter hexagon and <br/>winter triangle</b> .It is  next to canis major, Taurus,Gemini,<br/> monoceros etc.It has m32 or orion sword which can<br/> be spotted by going to down from alnilam.</p>
+        <p id="h">Taurus</p>
+        <div id="imgdivh"><img id="imgh" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Taurus_IAU.svg/1280px-Taurus_IAU.svg.png"/>
+      </div>  <p id="p">Taurus is one of the twelve zodiac signs.It has a very<br/> famous cluster called <b> the Pleiades or the seven sisters</b><br/>where it has seven blue bright stars.It has two bright<br/> stars which are:</p>
+        <ul id="p">
+            <b>
+                <li>Aldebarn</li>
+                <li>Ain</li>
+            </b>
+            </ul>
+        <p id="p">This constellation got its name and star in Arabic<br/> where Aldebarn means <b>The follower</b> in Arabic.<br/>
+        It's
+         arms' can be found  be using the triangles of<br/><b> Aldebarn,Ain,Beltrix and Betelgeuse.V,<br/>winter hexagon ,winter triangle and heavenly g </b>are some famous<br/> astrium in Taurus.</p>
+         <p id="h">Ursa Major and Minor</p>
+         <div id="imgdivh"><img id="imgh" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ursa_Minor_IAU.svg/960px-Ursa_Minor_IAU.svg.png"/></div> </br>
+     <div id="imgdivh">    <img id="imgh" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ursa_Major_IAU.svg/1280px-Ursa_Major_IAU.svg.png"/></div>
+         <p id="p">I have kept both of them in the same section as  both are visible at <br/><b> the northern hemisphere</b>. Both of the constellation are used<br/> to find the north. Polaris is a famous star in ursa minor as <br/> it coincidence with the north direction(if you are at the equator)<br/>and has a common misconception that Polaris is the<br/> brightest star in sky excluding the sun.</p><p></p><p id="p">It's actually the <b>49th brightest star</b>.The big dipper is <br/><b>not constellation</b> but an astrium .The big dipper  is <br/>located in ursa major having <b>seven stars</b>.The big dipper is useful<br/> for finding:</p>
+         <ul id="p">
+             <b>
+                 <li>Polaris</li>
+                 <li>Arctus</li>
+                 <li>Gamma cassisopea</li>
+                 <li>orion belt</li>
+             </b>
+         </ul>
+         <p id="h">Sagittarius</p>
+       <div id="imgdivh">  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Sagittarius_IAU.svg/960px-Sagittarius_IAU.svg.png"; id="imgh" ></div>
+       <p id="p">Sagittarius is the ninth zodiac sign and it is the most beautiful</br> constellation to watch in a telescope and is adviced to watch by amateur astronomer.</br> There are a lot of galaxy such as<b> m21,22,23,25,28,17,18,20,8 and 55</b>, which are</br> messiner objects.It contains <b>the milky way bulgue</b> where there is Sagittarius A* .</br>It has a very famous  astrium, <b>the teapot</b> and it contains lots of star such as:</p>
+       <ul id="p">
+           <li>kaus Australis</li>
+           <li>kaus Borealis</li>
+           <li>kaus media</li>
+       </ul>
+       <p id="h">Telescopium</p>
+     <div id="imgdivh"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Telescopium_IAU.svg/1280px-Telescopium_IAU.svg.png" id="imgh"/></br>
+     </div></br><div id="imgdivh">
+     <img id="imgh"src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Crux_IAU.svg/1280px-Crux_IAU.svg.png" >
+     </div>
+     <p id="p">I have kept them last as they both are seen only in the<b> Southern hemisphere</b>.</br>Telescopium has <b>2 bright star</b> which are </br> <b> alpha Telescopium and zeta Telescopium</b>.It is my favourite constellation.</br> Crux is the most popular Southern constellation and</br> <b>smallest constellation</b> in the sky. It is used to find the</br> <b>southern geographic pole</b>
+    Crux contains five stars which are:</p>
+    <ul id="p">
+        <li>acrux</li>
+        <li>gacux</li>
+        <li>beta cruis</li>
+        <li>delta cruis</li>
+        <li>epsilon cruis</li>
+    </ul>
+    <p id="p">So that is all you have reached the end of this</br> website the last time updated is May 9 Saturday  2026.</br> if you want to read it more to to Wikipedia,</br> it has all the details. This is for beginners star gazers to</br> learn constellation to be an amateur astronomer</br> Well... before the end of this website I want to clarify  the difference</br> between  amateur astronomer and star gazer.</br></br>    An amateur astronomer does astrophotographie and really study space</br>as it is and watch the sky. They will see comets space station</br> track planet and eclipse. While a Star gazer just watched and admires</br> the sky and watch anything. They don't study about constellation</br> and doesn
+    't care what they see what is shoking and flabbergasting events</br> with big Amaze. The difference  can be seen when talk to the </br>people by informing  an eclipse.</br></br>A Star gazer just ask when the eclipse happens then they see</br> while an amateur astronomer asks when does </br>it begin and end,where can it be seen,which altitude can it be seen,</br>what is the altitude and azimuth,is it total,partial or anullar eclipse</br>
+    etc.So yay basically that's it...</p>
+            </div>
+    </body>
+</html>
